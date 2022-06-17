@@ -6,6 +6,10 @@ export default createGlobalStyle`
     padding: 0;
     outline: none;
     box-sizing: border-box;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
     }
 
     :root {
