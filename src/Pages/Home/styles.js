@@ -13,6 +13,10 @@ export const Container = styled.div`
 
   text-align: center;
 
+  h1 {
+    font-size: 8rem;
+  }
+
   div {
     display: flex;
     justify-content: center;

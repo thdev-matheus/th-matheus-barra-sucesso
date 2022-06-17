@@ -2,8 +2,15 @@ import { Container } from "./styles";
 import lady from "../../assets/lady.png";
 import warning from "../../assets/warning.png";
 import Button from "../../components/Button";
+import { useHistory } from "react-router-dom";
 
 export default function Home() {
+  const history = useHistory();
+
+  const irParaPergunta = () => {
+    history.push("/estrutura");
+  };
+
   return (
     <Container>
       <h1>/Sucesso</h1>
@@ -17,7 +24,7 @@ export default function Home() {
             adequadamente para te atender.
           </p>
           <p>
-            Então preencha todos os campor com atenção e de uma forma bem
+            Então preencha todos os campos com atenção e de uma forma bem
             detalhada, pois assim, conseguiremos estruturar o seu /pergunta de
             uma forma que o coach vai ler e entender bem em que ponto precisará
             intervir em sua dúvida.
@@ -34,7 +41,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Button>Estruturar seu /Perguntas</Button>
+      <Button onClick={irParaPergunta}>Estruturar seu /Perguntas</Button>
 
       <div>
         <div>

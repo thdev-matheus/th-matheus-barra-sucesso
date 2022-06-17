@@ -10,6 +10,7 @@ export default createGlobalStyle`
 
     :root {
         --dark: #2a2e31;
+        --medium-black: #696969;
         --gray: #d3dbe3;
         --blue: #546de5;
         --medium-blue: #778beb;
@@ -21,14 +22,14 @@ export default createGlobalStyle`
         color: var(--gray);
     }
 
-    body, input, button {
+    body, input, button, textarea {
         font-family: 'Comfortaa', cursive;
         font-size: 1rem;
     }
 
     h1 {
         font-family: 'Satisfy', cursive;
-        font-size: 8rem;
+        font-size: 6rem;
         font-weight: lighter;
 
     }
@@ -37,7 +38,6 @@ export default createGlobalStyle`
         font-family: 'Comfortaa', cursive;
         font-weight: 700;
         font-size: 3.5rem;
-        margin-bottom: 1.5rem;
     }
 
     button {

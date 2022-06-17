@@ -3,6 +3,9 @@ import styled, { css } from "styled-components";
 export const Container = styled.div`
   text-align: left;
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   div {
     font-size: 1.8rem;
@@ -18,9 +21,9 @@ export const InputContainer = styled.div`
   color: var(--dark);
   padding: 1rem;
   width: 100%;
+  height: ${(props) => props.height};
   display: flex;
   transition: 0.4s;
-
   margin-top: 0.5rem;
 
   ${(props) =>
@@ -32,18 +35,21 @@ export const InputContainer = styled.div`
       }
     `}
 
-  input {
+  textarea {
     background: transparent;
     align-items: center;
     flex: 1;
+    outline: none;
     border: 0;
     color: var(--black);
+
     ::placeholder {
       color: var(--medium-black);
+      line-height: 1.3rem;
     }
-  }
 
-  svg {
-    margin-right: 1rem;
+    ::-webkit-scrollbar {
+      display: none;
+    }
   }
 `;
