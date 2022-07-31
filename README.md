@@ -1,5 +1,9 @@
 # /Sucesso
 
+## link 👇
+
+https://th-matheus-barra-sucesso-iifozyq4o-th-matheus.vercel.app/
+
 <div style="display: inline_block"><br/>
     <img align="center" alt="git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
     <img align="center" alt="github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
@@ -21,6 +25,17 @@
 > Aplicação criada por Matheus vieira enquanto peer coach da Kenzie Academy Brasil para ajudar os seus devs a formularem boas perguntas e enviá-las para o canal de atendimento do slack.
 
 <br/>
+
+<!-- ### Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [x] Criação de ambiente inicial com formu
+- [x] Tarefa 2
+- [x] Tarefa 3
+- [ ] Tarefa 4
+- [ ] Tarefa 5
+ -->
 
 ## ☕ Usando o /sucesso
 
