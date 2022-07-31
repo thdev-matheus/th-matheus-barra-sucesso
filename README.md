@@ -12,8 +12,8 @@
 <br/>
 <br/>
 <div style="display: inline-block">
-    <img width="46%" src="https://i.ibb.co/TPJ1QhQ/Captura-de-tela-de-2022-07-30-22-53-19.png" alt="exemplo imagem">
-    <img width="46%" src="https://i.ibb.co/n1thGT1/Captura-de-tela-de-2022-07-30-22-59-29.png" alt="exemplo imagem">
+    <img width="46%" src="https://i.ibb.co/TPJ1QhQ/Captura-de-tela-de-2022-07-30-22-53-19.png" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/n1thGT1/Captura-de-tela-de-2022-07-30-22-59-29.png" alt="imagem">
 </div>
 <br/>
 <br/>
